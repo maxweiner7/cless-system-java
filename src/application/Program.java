@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import chess.ChessException;
-import chess.ChessMath;
+import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
 
@@ -12,7 +12,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
-		ChessMath chessMath = new ChessMath();
+		ChessMatch chessMath = new ChessMatch();
 		
 		while (true) {
 			try {
